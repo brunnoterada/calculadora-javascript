@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+body{
+    font-family: 'Antonio', sans-serif;
+    margin: none;
+    padding: none;
+    background-color:#019076;
+}
+header{
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    background-color: #004146;
+}
+.titulo h1{
+    color:#03bfb5; 
+
+}
+#tela{
+    background-color: white;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    text-align: center; 
+    border-radius: 5px;
+}
+#tela p{
+    text-align: right;
+    font-size: 50px;
+}
+#calculadora{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;  
+    background-color:gray;
+    border-radius: 7px;
+}
+button{
+    font-size: 50px;
+    margin: 10px;
+    width: 15%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.473);
+    color: rgb(207, 207, 207);
+}
+
+
+
+
+

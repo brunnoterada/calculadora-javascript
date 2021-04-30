@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <h1>Calculadora em Javascript</h1>
+        </div>
+    </header>
+    <section>
+        <div id="calculadora">
+            <div id="tela">
+                <p id="resultado">0</p>
+            </div>
+            <div id="teclado">
+                <div class="linha">
+                    <button value="7" name="7" onclick="numero(7)">7</button>
+                    <button value="8" name="8" onclick="numero(8)">8</button>
+                    <button value="9" name="9" onclick="numero(9)">9</button>
+                    <button value="+" name="+" onclick="operacao('+')">+</button>
+                </div>
+                <div class="linha">
+                    <button value="4" name="4" onclick="numero(4)">4</button>
+                    <button value="5" name="5" onclick="numero(5)">5</button>
+                    <button value="6" name="6" onclick="numero(6)">6</button>
+                    <button value="-" name="-"onclick="operacao('-')">-</button>
+                </div>
+                <div class="linha">
+                    <button value="1" name="1" onclick="numero(1)">1</button>
+                    <button value="2" name="2" onclick="numero(2)">2</button>
+                    <button value="3" name="3" onclick="numero(3)">3</button>
+                    <button value="*" name="*" onclick="operacao('*')">X</button>
+                </div>
+                <div class="linha">
+                    <button value="0" name="0" onclick="numero(0)">0</button>
+                    <button value="." name="."onclick="numero(.)">.</button>
+                    <button value="/" name="/"onclick="operacao('/')">/</button>
+                    <button value="=" name="=" onclick="calcular()">=</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <script src="script.js"></script>
+    </footer>
+</body>
+</html>
